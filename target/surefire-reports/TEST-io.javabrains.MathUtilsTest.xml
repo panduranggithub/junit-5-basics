@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="io.javabrains.MathUtilsTest" time="0.12" tests="6" errors="1" skipped="1" failures="0">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/pandurang/Softwares/JavaDatastructures&amp;Algorithm/junit-5-basics/target/test-classes:/home/pandurang/Softwares/JavaDatastructures&amp;Algorithm/junit-5-basics/target/classes:/home/pandurang/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.1/junit-jupiter-engine-5.6.1.jar:/home/pandurang/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/pandurang/.m2/repository/org/junit/platform/junit-platform-engine/1.6.1/junit-platform-engine-1.6.1.jar:/home/pandurang/.m2/repository/org/junit/jupiter/junit-jupiter/5.4.0/junit-jupiter-5.4.0.jar:/home/pandurang/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.4.0/junit-jupiter-params-5.4.0.jar:/home/pandurang/.m2/repository/org/springframework/security/spring-security-core/5.3.0.RELEASE/spring-security-core-5.3.0.RELEASE.jar:/home/pandurang/.m2/repository/org/springframework/spring-aop/5.2.4.RELEASE/spring-aop-5.2.4.RELEASE.jar:/home/pandurang/.m2/repository/org/springframework/spring-beans/5.2.4.RELEASE/spring-beans-5.2.4.RELEASE.jar:/home/pandurang/.m2/repository/org/springframework/spring-context/5.2.4.RELEASE/spring-context-5.2.4.RELEASE.jar:/home/pandurang/.m2/repository/org/springframework/spring-core/5.2.4.RELEASE/spring-core-5.2.4.RELEASE.jar:/home/pandurang/.m2/repository/org/springframework/spring-jcl/5.2.4.RELEASE/spring-jcl-5.2.4.RELEASE.jar:/home/pandurang/.m2/repository/org/springframework/spring-expression/5.2.4.RELEASE/spring-expression-5.2.4.RELEASE.jar:/home/pandurang/.m2/repository/org/mockito/mockito-core/3.3.3/mockito-core-3.3.3.jar:/home/pandurang/.m2/repository/net/bytebuddy/byte-buddy/1.10.5/byte-buddy-1.10.5.jar:/home/pandurang/.m2/repository/net/bytebuddy/byte-buddy-agent/1.10.5/byte-buddy-agent-1.10.5.jar:/home/pandurang/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/home/pandurang/.m2/repository/org/junit/platform/junit-platform-launcher/1.6.1/junit-platform-launcher-1.6.1.jar:/home/pandurang/.m2/repository/org/junit/vintage/junit-vintage-engine/5.6.1/junit-vintage-engine-5.6.1.jar:/home/pandurang/.m2/repository/junit/junit/4.13/junit-4.13.jar:/home/pandurang/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/pandurang/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.1/junit-jupiter-api-5.6.1.jar:/home/pandurang/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/pandurang/.m2/repository/org/junit/platform/junit-platform-commons/1.6.1/junit-platform-commons-1.6.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Linux"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/home/pandurang/Softwares/jdk1.8/jre/lib/amd64"/>
+    <property name="sun.java.command" value="/home/pandurang/Softwares/JavaDatastructures&amp;Algorithm/junit-5-basics/target/surefire/surefirebooter8209959888386290.jar /home/pandurang/Softwares/JavaDatastructures&amp;Algorithm/junit-5-basics/target/surefire 2020-04-10T22-14-11_426-jvmRun1 surefire5669945444250803079tmp surefire_05552503147491871178tmp"/>
+    <property name="surefire.test.class.path" value="/home/pandurang/Softwares/JavaDatastructures&amp;Algorithm/junit-5-basics/target/test-classes:/home/pandurang/Softwares/JavaDatastructures&amp;Algorithm/junit-5-basics/target/classes:/home/pandurang/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.1/junit-jupiter-engine-5.6.1.jar:/home/pandurang/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/pandurang/.m2/repository/org/junit/platform/junit-platform-engine/1.6.1/junit-platform-engine-1.6.1.jar:/home/pandurang/.m2/repository/org/junit/jupiter/junit-jupiter/5.4.0/junit-jupiter-5.4.0.jar:/home/pandurang/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.4.0/junit-jupiter-params-5.4.0.jar:/home/pandurang/.m2/repository/org/springframework/security/spring-security-core/5.3.0.RELEASE/spring-security-core-5.3.0.RELEASE.jar:/home/pandurang/.m2/repository/org/springframework/spring-aop/5.2.4.RELEASE/spring-aop-5.2.4.RELEASE.jar:/home/pandurang/.m2/repository/org/springframework/spring-beans/5.2.4.RELEASE/spring-beans-5.2.4.RELEASE.jar:/home/pandurang/.m2/repository/org/springframework/spring-context/5.2.4.RELEASE/spring-context-5.2.4.RELEASE.jar:/home/pandurang/.m2/repository/org/springframework/spring-core/5.2.4.RELEASE/spring-core-5.2.4.RELEASE.jar:/home/pandurang/.m2/repository/org/springframework/spring-jcl/5.2.4.RELEASE/spring-jcl-5.2.4.RELEASE.jar:/home/pandurang/.m2/repository/org/springframework/spring-expression/5.2.4.RELEASE/spring-expression-5.2.4.RELEASE.jar:/home/pandurang/.m2/repository/org/mockito/mockito-core/3.3.3/mockito-core-3.3.3.jar:/home/pandurang/.m2/repository/net/bytebuddy/byte-buddy/1.10.5/byte-buddy-1.10.5.jar:/home/pandurang/.m2/repository/net/bytebuddy/byte-buddy-agent/1.10.5/byte-buddy-agent-1.10.5.jar:/home/pandurang/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/home/pandurang/.m2/repository/org/junit/platform/junit-platform-launcher/1.6.1/junit-platform-launcher-1.6.1.jar:/home/pandurang/.m2/repository/org/junit/vintage/junit-vintage-engine/5.6.1/junit-vintage-engine-5.6.1.jar:/home/pandurang/.m2/repository/junit/junit/4.13/junit-4.13.jar:/home/pandurang/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/pandurang/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.1/junit-jupiter-api-5.6.1.jar:/home/pandurang/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/pandurang/.m2/repository/org/junit/platform/junit-platform-commons/1.6.1/junit-platform-commons-1.6.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/pandurang"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/home/pandurang/Softwares/jdk1.8/jre"/>
+    <property name="basedir" value="/home/pandurang/Softwares/JavaDatastructures&amp;Algorithm/junit-5-basics"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/pandurang/Softwares/JavaDatastructures&amp;Algorithm/junit-5-basics/target/surefire/surefirebooter8209959888386290.jar"/>
+    <property name="sun.boot.class.path" value="/home/pandurang/Softwares/jdk1.8/jre/lib/resources.jar:/home/pandurang/Softwares/jdk1.8/jre/lib/rt.jar:/home/pandurang/Softwares/jdk1.8/jre/lib/sunrsasign.jar:/home/pandurang/Softwares/jdk1.8/jre/lib/jsse.jar:/home/pandurang/Softwares/jdk1.8/jre/lib/jce.jar:/home/pandurang/Softwares/jdk1.8/jre/lib/charsets.jar:/home/pandurang/Softwares/jdk1.8/jre/lib/jfr.jar:/home/pandurang/Softwares/jdk1.8/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_151-b12"/>
+    <property name="user.name" value="pandurang"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="4.10.0-28-generic"/>
+    <property name="java.endorsed.dirs" value="/home/pandurang/Softwares/jdk1.8/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/pandurang/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="1.8.0_151"/>
+    <property name="user.dir" value="/home/pandurang/Softwares/JavaDatastructures&amp;Algorithm/junit-5-basics"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="java.ext.dirs" value="/home/pandurang/Softwares/jdk1.8/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testAdd" classname="io.javabrains.MathUtilsTest" time="0.055"/>
+  <testcase name="testDivide" classname="io.javabrains.MathUtilsTest" time="0">
+    <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
+	at io.javabrains.MathUtilsTest.testDivide(MathUtilsTest.java:104)
+</skipped>
+  </testcase>
+  <testcase name="testMultiply" classname="io.javabrains.MathUtilsTest" time="0.008"/>
+  <testcase name="testComputeCircleRadius{RepetitionInfo}" classname="io.javabrains.MathUtilsTest" time="0.005">
+    <error message="No ParameterResolver registered for parameter [org.junit.jupiter.api.RepetitionInfo arg0] in method [void io.javabrains.MathUtilsTest.testComputeCircleRadius(org.junit.jupiter.api.RepetitionInfo)]." type="org.junit.jupiter.api.extension.ParameterResolutionException">org.junit.jupiter.api.extension.ParameterResolutionException: No ParameterResolver registered for parameter [org.junit.jupiter.api.RepetitionInfo arg0] in method [void io.javabrains.MathUtilsTest.testComputeCircleRadius(org.junit.jupiter.api.RepetitionInfo)].
+</error>
+  </testcase>
+  <testcase name="testAddPositive" classname="io.javabrains.MathUtilsTest$AddTest" time="0.004"/>
+  <testcase name="testAddNagative" classname="io.javabrains.MathUtilsTest$AddTest" time="0.013"/>
+</testsuite>

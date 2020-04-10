@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: io.javabrains.MathUtilsTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 1, Skipped: 1, Time elapsed: 0.12 s <<< FAILURE! - in io.javabrains.MathUtilsTest
+testComputeCircleRadius{RepetitionInfo}  Time elapsed: 0.005 s  <<< ERROR!
+org.junit.jupiter.api.extension.ParameterResolutionException: No ParameterResolver registered for parameter [org.junit.jupiter.api.RepetitionInfo arg0] in method [void io.javabrains.MathUtilsTest.testComputeCircleRadius(org.junit.jupiter.api.RepetitionInfo)].
+
